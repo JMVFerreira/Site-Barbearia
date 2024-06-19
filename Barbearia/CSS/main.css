@@ -1,0 +1,181 @@
+/* black1: #0B090A */
+/* black2: #161A1D */
+/* red1: #BA181B */
+/* red2: #E5383B */
+
+/* Genérico*/
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.btn {
+    padding: 20px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.btn-sm {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #BA181B;
+}
+
+.btn-outline {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.overtitle {
+    color: #BA181B;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-size: 700;
+}
+
+
+
+/* Layout */
+
+#header-container {
+    background-color: #000000;
+}
+
+.header {
+    color: #ffffff;
+    padding: 24px 72px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero section */
+
+#hero-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 72px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 96px 0;
+}
+
+.hero-img {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.hero-img img {
+    max-width: 100%;
+}
+
+.hero-text__title {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.hero-text__subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 520px;
+}
+
+/* Service Section */
+
+#services-container {
+    padding: 96px 72px;
+}
+
+.services-list {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #f5f3f4;
+    border: 2px solid #d3d3d3;
+}
+
+.service-card img {
+    width: 100%;
+}
+
+.service-card__text{
+    padding: 32px;
+}
+
+.service-card__text h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.service-card__text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Location Section */
+
+#location-container {
+    background-color: #f5f3f4;
+}
+
+#location-container .location {
+    padding: 96px 72px 48px;
+}
+
+#location-container address {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0b090a;
+    color: #ffffff;
+    padding: 72px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer title {
+    font-size: 24px;
+} 
+
